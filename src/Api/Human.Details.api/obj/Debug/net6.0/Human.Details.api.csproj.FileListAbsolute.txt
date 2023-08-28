@@ -66,3 +66,14 @@ D:\Projects\Human.Details\src\Api\Human.Details.api\obj\Debug\net6.0\scopedcss\b
 D:\Projects\Human.Details\src\Api\Human.Details.api\obj\Debug\net6.0\Human.Details.api.csproj.CopyComplete
 D:\Projects\Human.Details\src\Api\Human.Details.api\obj\Debug\net6.0\Human.Details.api.genruntimeconfig.cache
 D:\Projects\Human.Details\src\Api\Human.Details.api\obj\Debug\net6.0\ref\Human.Details.api.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Humanizer.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Npgsql.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll

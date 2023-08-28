@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eUSnpa/JI2kxNPnuR0/uFM78o4gEmBxsoiGuM9y/p/Xe0eC+GBh9mw8h7RC45wP/N53UkjWwoJ1uYo6ZqOKiow==",
+  "dgSpecHash": "oGhE2+HnM0s1CzcekxLWtTYZBzn+4PPx9f3yni/GKoSsLUtZzcBPPGgPAgyqUgKzMOgUk6969BcxvP4g61Vl2A==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Human.Details\\src\\Api\\Human.Details.api\\Human.Details.api.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

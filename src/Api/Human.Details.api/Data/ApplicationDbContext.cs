@@ -18,24 +18,26 @@ namespace Human.Details.api.Data;
             public DbSet<Sale> Sales => Set<Sale>();
             
             protected override void OnModelCreating(ModelBuilder modelBuilder)
-            {
+            { 
                 modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
                 base.OnModelCreating(modelBuilder);
             }
     }
 
-    public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
-    {
-        public ApplicationDbContext CreateDbContext(string[] args)
-        {
-            var configuration = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json")).Build();
-            
-            var builder =  new DbContextOptionsBuilder<ApplicationDbContext>();
-           
-            builder.UseNpgsql(configuration.GetConnectionString("DbConnection"));
-            return new ApplicationDbContext(builder.Options);
-        }
-    }
+    // public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
+    // {
+    //     public ApplicationDbContext CreateDbContext(string[] args)
+    //     {
+    //         var configuration = new ConfigurationBuilder()
+    //             .SetBasePath(Directory.GetCurrentDirectory())
+    //             .AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json")).Build();
+    //
+    //         var builder = new DbContextOptionsBuilder<ApplicationDbContext>();
+    //
+    //         builder.UseNpgsql(configuration.GetConnectionString("DbConnection"));
+    //
+    //         return new ApplicationDbContext(builder.Options);
+    //     }
+    // }
+
  

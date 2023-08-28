@@ -111,6 +111,6 @@ public class redisInstanceController: ControllerBase
                 s2Humid = Math.Min(s2Humid + rnd.Next(3) - 2, 100);
             }
         }
-        
     }
+    
 }
