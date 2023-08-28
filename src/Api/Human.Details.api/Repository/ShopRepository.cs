@@ -1,19 +1,18 @@
 using Human.Details.api.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace Human.Details.api.Repository;
 
-public class SaleRepository :IShopRepository<Sale>
+public class ShopRepository<T>:IShopRepository<T> where T : class
 {
     private readonly ApplicationDbContext _dbContext;
 
-    public SaleRepository(ApplicationDbContext dbContext)
+    public ShopRepository(ApplicationDbContext dbContext)
     {
         _dbContext = dbContext;
     }
-    public async Task AddAsync(Sale sale)
+    public async Task AddAsync(T entity)
     {
-        await _dbContext.AddAsync(sale);
+        await _dbContext.Set<T>().AddAsync(entity); 
         await _dbContext.SaveChangesAsync();
     }
 }

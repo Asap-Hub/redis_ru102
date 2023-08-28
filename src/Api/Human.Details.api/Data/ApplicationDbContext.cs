@@ -14,8 +14,8 @@ namespace Human.Details.api.Data;
                 AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
             }
 
-            public DbSet<Employee> Employees => Set<Employee>();
-            public DbSet<Sale> Sales => Set<Sale>();
+            public DbSet<Employee> Employees { get; set; }
+            public DbSet<Sale> Sales { get; set; }
             
             protected override void OnModelCreating(ModelBuilder modelBuilder)
             { 

@@ -1,14 +1,12 @@
 using Human.Details.api.Data;
 using Human.Details.api.Extension;
+using Human.Details.api.Repository;
+using Human.Details.api.Services;
 using Microsoft.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
-
-{
-    
-    
-      //  var builder = WebApplication.CreateBuilder(args);         
+{      
         var service = builder.Services;
         var config = builder.Configuration;
         
@@ -16,10 +14,12 @@ var builder = WebApplication.CreateBuilder(args);
 
     service.AddControllers();
     service.RedisServiceExtension();
-        
+    service.AddScoped(typeof(IShopRepository<>), typeof(ShopRepository<>));
+    service.AddScoped<ISaleService,SaleService>();
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
       service.AddEndpointsApiExplorer();
       service.AddSwaggerGen();
+      
         
     //adding applicationdbcontext to database
     service.AddDbContext<ApplicationDbContext>(options =>
