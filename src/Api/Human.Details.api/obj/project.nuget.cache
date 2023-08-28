@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JTZ64kpkJzGveOSNBiPU6BniS86SdfbudfdciqyZ8c2pGGGYdfS1zOqzdM+x2NYYSbJ264WGYvdQFz1Ng4iMwg==",
+  "dgSpecHash": "eUSnpa/JI2kxNPnuR0/uFM78o4gEmBxsoiGuM9y/p/Xe0eC+GBh9mw8h7RC45wP/N53UkjWwoJ1uYo6ZqOKiow==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Human.Details\\src\\Api\\Human.Details.api\\Human.Details.api.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,8 @@
     "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ASAP\\.nuget\\packages\\npgsql\\6.0.8\\npgsql.6.0.8.nupkg.sha512",
+    "C:\\Users\\ASAP\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.8\\npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\stackexchange.redis\\2.6.122\\stackexchange.redis.2.6.122.nupkg.sha512",
     "C:\\Users\\ASAP\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

@@ -1,5 +1,6 @@
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design; 
 
 namespace Human.Details.api.Data;
 
@@ -21,5 +22,20 @@ namespace Human.Details.api.Data;
                 modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
                 base.OnModelCreating(modelBuilder);
             }
+    }
+
+    public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
+    {
+        public ApplicationDbContext CreateDbContext(string[] args)
+        {
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json")).Build();
+            
+            var builder =  new DbContextOptionsBuilder<ApplicationDbContext>();
+           
+            builder.UseNpgsql(configuration.GetConnectionString("DbConnection"));
+            return new ApplicationDbContext(builder.Options);
+        }
     }
  
