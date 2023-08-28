@@ -27,7 +27,7 @@ public class redisInstanceController: ControllerBase
         Console.WriteLine("it took {0} to complete this initiation", date);
         IDatabase redisDb = _redisConnection.GetDatabase();
         
-        var sendData = new Modal()
+        var sendData = new UserInfo()
         {
             id = Guid.NewGuid().ToString("N"),
             value = "Ama",
@@ -59,7 +59,7 @@ public class redisInstanceController: ControllerBase
         
         IDatabase redisDb = _redisConnection.GetDatabase();
         var saveData = redisDb.ListRightPop(key: key);
-       var result =  JsonSerializer.Deserialize<Modal>(saveData).ToString();
+       var result =  JsonSerializer.Deserialize<UserInfo>(saveData).ToString();
        
         Console.WriteLine("key {0} : value {1}",key, saveData);
         return new response()

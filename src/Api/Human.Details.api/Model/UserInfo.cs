@@ -1,6 +1,6 @@
 namespace Human.Details.api;
 
-public class Modal
+public class UserInfo
 {
     public string id { get; set; }
     public string value { get; set; }
