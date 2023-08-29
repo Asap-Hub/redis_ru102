@@ -1,7 +1,10 @@
+using Human.Details.api;
 using Human.Details.api.Data;
+using Human.Details.api.DTOs;
 using Human.Details.api.Extension;
 using Human.Details.api.Repository;
 using Human.Details.api.Services;
+using Mapster;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -16,6 +19,8 @@ var builder = WebApplication.CreateBuilder(args);
     service.RedisServiceExtension();
     service.AddScoped(typeof(IShopRepository<>), typeof(ShopRepository<>));
     service.AddScoped<ISaleService,SaleService>();
+    service.AddScoped<IEmployeeService, EmployeeService>();
+    service.RegisterMapsterConfiguration(); 
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
       service.AddEndpointsApiExplorer();
       service.AddSwaggerGen();

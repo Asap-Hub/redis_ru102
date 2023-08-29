@@ -9,7 +9,6 @@ public static class RedisServiceConfiguration
         {
             EndPoints = {"127.0.0.1:6379"}
         };
-        
         service.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(option));    
          
         return service;
