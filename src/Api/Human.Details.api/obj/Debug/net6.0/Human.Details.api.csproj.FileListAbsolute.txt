@@ -77,3 +77,4 @@ D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Npgsql.dll
 D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Projects\Human.Details\src\Api\Human.Details.api\bin\Debug\net6.0\Mapster.dll

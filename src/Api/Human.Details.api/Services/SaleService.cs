@@ -11,8 +11,9 @@ public class SaleService : ISaleService
         _saleService = saleService;
     }
  
-    public async Task AddSaleAsync(Sale sale)
+    public async Task<Sale> AddSaleAsync(Sale sale)
     {
-       await _saleService.AddAsync(sale);
+      var rest = await _saleService.AddAsync(sale);
+      return sale;
     }
 }
